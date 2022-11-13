@@ -1,0 +1,82 @@
+.fiveth {
+    background-color: #F1EAEA;
+}
+.five-info {
+    position: relative; 
+    overflow: hidden;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB775;
+    border-radius: 20px 20px 20px 20px; 
+      
+.five-content {
+    //background-color: #FAECD3;
+    display: block;
+width: 100%;
+max-width: 500px;
+padding: 25px 20px;
+
+.five-title {
+   font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 68px;
+color: #002A48;
+margin-bottom: 10px;
+}
+.five-title-two {
+  font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+text-transform: capitalize;
+color: #002A48;
+  margin-bottom: 24px;
+}
+ .five-text {
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #242B33;
+margin-bottom: 48px;
+
+}
+.five-links {
+display: flex;
+gap: 25px;
+.btn-five {
+    border: 1 solid #242B33;
+  border-radius: 55px; 
+  padding: 15px 39px; 
+  background-color: transparent;
+.playing {
+    margin-left: 15px;
+}
+}
+.link-two {
+     border-radius: 55px; 
+  padding: 15px 36px; 
+  color: white;
+  background-color: #002A48;
+}
+}
+}
+}
+.rectangle-9 {
+    position: absolute;
+ z-index: -1;
+ right: 660px;
+ bottom: 38px;   
+}
+.rectangle-10 {
+    position: absolute;
+    z-index: -1;
+left: 650px;
+top: 100px;
+}

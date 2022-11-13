@@ -1,0 +1,78 @@
+.second {
+    padding: 140px 138px;
+    background-color: #dccccc67;
+  .second-header {
+    justify-content: space-between;
+    align-items: center;
+.titr {
+  font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+color: #000000;
+margin-bottom: 10px;
+}
+.second-title {
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: flex-end;
+text-transform: capitalize;
+color: #003459;
+margin-bottom: 10px;
+}
+.second-link {
+border: 1.5px solid #071e2f;
+ padding: 10px 25px;
+ color: #003459;
+ border-radius: 55px;
+font-weight: 30px;
+    
+}
+}
+.second-cards {
+ grid-template-columns: repeat(4,1fr);
+gap: 30px;
+ justify-items: center; 
+ justify-content: flex-start; 
+ align-items: center; 
+ padding: 15px 20px;
+.card-item {
+    box-shadow: 0 0 20 0 black;
+border-radius: 15px;
+background-color: #fff;
+padding: 5px 8px;
+.img {
+    padding: 5px;
+  }  
+    &:hover .img {
+        border-radius: 30px;
+}
+.card-title {
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.card-news {
+ justify-content: flex-start;
+align-items: center;
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #667479;
+gap: 8px;
+
+}
+}
+}
+}

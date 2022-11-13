@@ -1,0 +1,110 @@
+@media (max-width: $lg) {
+    .container {
+        width: $md -20px;
+    }
+   .header-info {
+    display: block;
+   } 
+   .hero-info {
+    display: block;
+   }
+   .four-cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .second-cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .finish-cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-bar {
+        display: block;
+    }
+    .footer-form {
+        display: block;
+    }
+    
+}
+
+@media (max-width: $md) {
+    .container {
+        width: $sm -20px;
+    }
+    .nav-list ,.search-box {
+        display: none;
+    }
+    .sider {
+        display: block;
+    }
+    .four-cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .logotips .logotips-images {
+        display: block;
+        margin: 0 auto;
+    }
+    .second-cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .three {
+        display: none;
+    }
+    .finish-cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fiveth {
+        display: none;
+    }
+    .footer-bar {
+        display: block;
+    }
+    .footer-form {
+        display: block;
+    }
+}
+@media (max-width: $sm) {
+    .container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .nav-list ,.search-box {
+        display: none;
+    }
+    .sider {
+        display: block;
+    }
+    .four-cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .logotips .logotips-images {
+        display: block;
+        margin: 0 auto;
+    }
+    .second-cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .three {
+        display: none;
+    }
+    .finish-cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fiveth {
+        display: none;
+    }
+    .footer-bar {
+        display: block;
+    }
+    .footer-form {
+        display: block;
+    }
+}
